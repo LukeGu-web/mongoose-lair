@@ -1,0 +1,53 @@
+.breath-text-hover {
+  width: 0;
+  height: 150px;
+  border-right: 4px solid #a3e635;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.dark .breath-text-hover {
+  border-right-color: #43ff85;
+}
+.breath-header:hover .breath-text-hover {
+  width: 100%;
+  color: #a3e635;
+  box-shadow: 0 0 80px #a3e635;
+  text-shadow: 0 0 24px #a3e635;
+  animation: text-breath-effect 2s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes text-breath-effect {
+  0% {
+    box-shadow: 0 0 80px #a3e635;
+    text-shadow: 0 0 24px #a3e635;
+  }
+  50% {
+    box-shadow: 0 0 30px #a3e635;
+    text-shadow: 0 0 12px #a3e635;
+  }
+  100% {
+    box-shadow: 0 0 80px #a3e635;
+    text-shadow: 0 0 24px #a3e635;
+  }
+}
+
+.dark .breath-header:hover .breath-text-hover {
+  color: #43ff85;
+  box-shadow: 0 0 80px #43ff85;
+  text-shadow: 0 0 24px #43ff85;
+  animation: text-breath-dark 2s linear infinite;
+}
+@keyframes text-breath-dark {
+  0% {
+    box-shadow: 0 0 80px #43ff85;
+    text-shadow: 0 0 24px #43ff85;
+  }
+  50% {
+    box-shadow: 0 0 30px #43ff85;
+    text-shadow: 0 0 12px #43ff85;
+  }
+  100% {
+    box-shadow: 0 0 80px #43ff85;
+    text-shadow: 0 0 24px #43ff85;
+  }
+}

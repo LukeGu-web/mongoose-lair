@@ -36,7 +36,7 @@ function Item({
         className={`h-72 relative overflow-hidden my-6 mr-16 rounded-xl p-10 max-h-full ${bgColor}`}
         style={{ width: 500 }}
       >
-        <h2 className='uppercase text-center text-medium text-black dark:text-gray-200'>
+        <h2 className='uppercase text-center text-medium text-zinc-500 dark:text-gray-200'>
           key feature
         </h2>
         <p className='self-center flex-1 mr-12 mt-8 font-semibold text-xl leading-10 text-black dark:text-white'>
