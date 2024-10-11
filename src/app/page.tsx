@@ -1,5 +1,5 @@
 import { Header, PageContainer } from '@/components';
-import { Screenshots, Title } from '@/components/Home';
+import { Features, Screenshots, Title } from '@/components/Home';
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Header />
       <Title />
       <Screenshots />
+      <Features />
     </PageContainer>
   );
 }
