@@ -1,4 +1,4 @@
-import { PageContainer } from '@/components';
+import { PageContainer, QRCode } from '@/components';
 import { Features, Screenshots, Title } from '@/components/Home';
 import Download from '@/components/Home/Download';
 
@@ -9,6 +9,7 @@ export default function Home() {
       <Screenshots />
       <Features />
       <Download />
+      <QRCode />
     </PageContainer>
   );
 }
