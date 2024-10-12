@@ -1,3 +1,5 @@
+import Header from '../Header/Header';
+
 export default function PageContainer({
   children,
 }: Readonly<{
@@ -8,6 +10,7 @@ export default function PageContainer({
       className='min-h-screen flex-col items-center justify-start flex p-4'
       style={{ maxWidth: '1280px', margin: '0 auto' }}
     >
+      <Header />
       {children}
     </div>
   );

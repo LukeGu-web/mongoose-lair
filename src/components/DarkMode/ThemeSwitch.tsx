@@ -15,7 +15,6 @@ export default function ThemeSwitch() {
 
   if (!mounted) return null;
 
-  console.log('theme', theme, isLight);
   const handleChange = (value: boolean) => {
     setIsLight(value);
     setTheme(isLight ? 'dark' : 'light');
@@ -29,8 +28,6 @@ export default function ThemeSwitch() {
       startContent={<FaSun color='#fff' />}
       endContent={<FaMoon />}
       onValueChange={handleChange}
-    >
-      <p className='text-black dark:text-white'>{theme ?? 'light'} mode</p>
-    </Switch>
+    />
   );
 }

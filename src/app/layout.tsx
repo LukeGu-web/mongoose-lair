@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Providers from './providers';
 import './globals.css';
+import { Footer } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Get Rich',
@@ -19,6 +20,7 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         <Providers>{children}</Providers>
+        <Footer />
       </body>
     </html>
   );
