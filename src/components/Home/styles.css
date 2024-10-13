@@ -1,3 +1,11 @@
+.features-wrapper {
+  perspective: 300px;
+}
+
+.features {
+  width: 300px;
+}
+
 /******************************** breath animation ********************************/
 .breath-header {
   width: 300px;
@@ -111,5 +119,15 @@
   .spotlight {
     font-size: 40px;
     font-weight: 900;
+  }
+}
+
+/* responsive: screen > md */
+@media only screen and (min-width: 768px) {
+  .features-wrapper {
+    perspective: 500px;
+  }
+  .features {
+    width: 500px;
   }
 }

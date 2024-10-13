@@ -9,7 +9,9 @@ export default function Home() {
       <Screenshots />
       <Features />
       <Download />
-      <QRCode />
+      <div className='hidden md:block'>
+        <QRCode />
+      </div>
     </PageContainer>
   );
 }

@@ -8,6 +8,7 @@ import {
   useTransform,
   MotionValue,
 } from 'framer-motion';
+import './styles.css';
 
 function useParallax(value: MotionValue<number>, distance: number) {
   return useTransform(value, [0, 1], [-distance, distance]);
@@ -27,24 +28,20 @@ function Item({
   const y = useParallax(scrollYProgress, 300);
 
   return (
-    <section
-      className='flex justify-center items-center relative snap-center h-dvh'
-      style={{ perspective: '500px' }}
-    >
+    <section className='features-wrapper flex justify-center items-center relative snap-center h-dvh'>
       <div
         ref={ref}
-        className={`h-72 relative overflow-hidden my-6 mr-16 rounded-xl p-10 max-h-full ${bgColor}`}
-        style={{ width: 500 }}
+        className={`features h-48 md:h-72 relative overflow-hidden mr-4 my-6 md:mr-16 rounded-xl p-4 md:p-10 max-h-full ${bgColor}`}
       >
-        <h2 className='uppercase text-center text-medium text-zinc-500 dark:text-gray-200'>
+        <h2 className='uppercase text-center text-base md:text-medium text-zinc-500 dark:text-gray-200'>
           key feature
         </h2>
-        <p className='self-center flex-1 mr-12 mt-8 font-semibold text-xl leading-10 text-black dark:text-white'>
+        <p className='self-center flex-1 mr-12 mt-4 md:mt-8 font-semibold text-base md:text-xl md:leading-10 text-black dark:text-white'>
           {description}
         </p>
       </div>
       <motion.h3
-        className='text-6xl absolute left-3/4 font-bold text-black dark:text-gray-200'
+        className='text-2xl md:text-5xl lg:text-6xl absolute left-3/4 font-bold text-black dark:text-gray-200'
         style={{ y }}
       >
         {title}
