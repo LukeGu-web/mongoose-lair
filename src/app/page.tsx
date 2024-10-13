@@ -1,6 +1,5 @@
 import { PageContainer, QRCode } from '@/components';
-import { Features, Screenshots, Title } from '@/components/Home';
-import Download from '@/components/Home/Download';
+import { Download, Features, Screenshots, Title } from '@/components/Home';
 
 export default function Home() {
   return (
