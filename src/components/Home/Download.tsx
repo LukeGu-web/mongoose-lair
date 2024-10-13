@@ -7,7 +7,7 @@ export default function Download() {
   return (
     <motion.div
       whileHover={{ scale: 1.3 }}
-      className='h-96 w-4/5 max-w-3xl m-16 bg-blue-500 mb-56 rounded-full p-12'
+      className='h-64 sm:h-96 w-full sm:w-4/5 max-w-3xl m-16 bg-blue-500 mb-56 rounded-full p-6 sm:p-12'
     >
       <div className='flex items-center justify-center'>
         <p className='spotlight' data-cont='Today is the day'>

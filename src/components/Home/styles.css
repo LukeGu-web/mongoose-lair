@@ -1,8 +1,12 @@
 /******************************** breath animation ********************************/
+.breath-header {
+  width: 300px;
+  height: 75px;
+}
 
 .breath-text-hover {
   width: 0;
-  height: 150px;
+  height: 75px;
   border-right: 4px solid #a3e635;
   overflow: hidden;
   transition: all 0.3s linear;
@@ -18,6 +22,7 @@
   animation: text-breath-effect 2s linear infinite;
   animation-delay: 0.3s;
 }
+
 @keyframes text-breath-effect {
   0% {
     box-shadow: 0 0 80px #a3e635;
@@ -58,7 +63,7 @@
 
 .spotlight {
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   position: relative;
@@ -91,5 +96,20 @@
   }
   100% {
     clip-path: ellipse(32px 32px at 0 50%);
+  }
+}
+
+/* responsive: screen > sm */
+@media only screen and (min-width: 640px) {
+  .breath-header {
+    width: 600px;
+    height: 145px;
+  }
+  .breath-text-hover {
+    height: 145px;
+  }
+  .spotlight {
+    font-size: 40px;
+    font-weight: 900;
   }
 }

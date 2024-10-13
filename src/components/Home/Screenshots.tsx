@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Screenshots() {
   return (
-    <div className='flex flex-row gap-6 border-2 border-zinc-200 dark:border-zinc-600 rounded-2xl p-6 mt-20'>
+    <section className='flex flex-row gap-6 border-2 justify-center border-zinc-200 dark:border-zinc-600 rounded-2xl p-6 mt-20 flex-wrap md:justify-evenly'>
       <Image
         className='rounded-2xl'
         src='/assets/screenshots/home.png'
@@ -18,7 +18,7 @@ export default function Screenshots() {
         alt='Picture of the asset management'
       />
 
-      <div className='justify-between flex flex-col'>
+      <div className='lg:justify-between flex-col flex sm:flex-row lg:flex-col md:justify-evenly md:w-full lg:w-fit'>
         <Image
           className='rounded-2xl'
           src='/assets/screenshots/line-chart.png'
@@ -26,7 +26,7 @@ export default function Screenshots() {
           height={244}
           alt='Picture of the asset management'
         />
-        <p className='text-xl text-black dark:text-white font-semibold text-center'>
+        <p className='text-xl text-black dark:text-white font-semibold text-center sm:[writing-mode:vertical-rl] lg:[writing-mode:horizontal-tb]'>
           Easy-to-read Charts
         </p>
         <Image
@@ -37,6 +37,6 @@ export default function Screenshots() {
           alt='Picture of the asset management'
         />
       </div>
-    </div>
+    </section>
   );
 }
