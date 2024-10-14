@@ -10,11 +10,11 @@ export default function NotFound() {
           Not Found
         </h2>
         <Image
-          className='w-full'
+          className='w-1/2 self-center'
           src='/assets/404.svg'
           width={0}
           height={0}
-          sizes='100vw'
+          sizes='50vw'
           alt='Picture of the 404'
         />
         <Link href='/'>Return Home</Link>

@@ -10,11 +10,11 @@ export default function Verification() {
           Email verification successful
         </h2>
         <Image
-          className='w-3/4 self-center'
+          className='w-1/2 self-center'
           src='/assets/email-verified.svg'
           width={0}
           height={0}
-          sizes='60vw'
+          sizes='50vw'
           alt='Picture of the email verification'
         />
         <Link href='/'>Return Home</Link>
