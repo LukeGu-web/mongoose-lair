@@ -9,7 +9,7 @@ export default function Footer() {
       <Link className='text-stone-700 dark:text-white' href='/'>
         Terms and Conditions
       </Link>
-      <Link className='text-stone-700 dark:text-white' href='/'>
+      <Link className='text-stone-700 dark:text-white' href='/privacy-policy'>
         Privacy Policy
       </Link>
     </footer>

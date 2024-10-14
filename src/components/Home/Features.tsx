@@ -33,10 +33,10 @@ function Item({
         ref={ref}
         className={`features h-48 md:h-72 relative overflow-hidden mr-4 my-6 md:mr-16 rounded-xl p-4 md:p-10 max-h-full ${bgColor}`}
       >
-        <h2 className='uppercase text-center text-base md:text-medium text-zinc-500 dark:text-gray-200'>
+        <h2 className='uppercase font-condensed text-center text-base md:text-medium text-zinc-500 dark:text-gray-200'>
           key feature
         </h2>
-        <p className='self-center flex-1 mr-12 mt-4 md:mt-8 font-semibold text-base md:text-xl md:leading-10 text-black dark:text-white'>
+        <p className='self-center flex-1 mr-12 mt-4 md:mt-8 font-medium font-mono text-base md:text-xl md:leading-10 text-black dark:text-white'>
           {description}
         </p>
       </div>
