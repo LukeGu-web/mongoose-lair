@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <motion.div
-        className='fixed top-0 left-0 right-0 h-1 bg-sky-400 dark:bg-amber-400'
+        className='fixed top-0 left-0 right-0 origin-top-left h-1 bg-sky-400 dark:bg-amber-400'
         style={{ scaleX }}
       />
       <div className='flex flex-col gap-4 leading-8 my-12 text-black dark:text-white'>
