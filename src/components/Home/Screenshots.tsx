@@ -18,7 +18,7 @@ export default function Screenshots() {
         alt='Picture of the asset management'
       />
 
-      <div className='lg:justify-between flex-col flex sm:flex-row lg:flex-col md:justify-evenly md:w-full lg:w-fit'>
+      <div className='flex flex-col gap-8 sm:flex-row sm:gap-0 md:justify-evenly md:w-full lg:flex-col lg:w-fit lg:justify-between'>
         <Image
           className='rounded-2xl'
           src='/assets/screenshots/line-chart.png'

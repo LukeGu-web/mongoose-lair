@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Roboto_Mono, Roboto_Condensed } from 'next/font/google';
+import { Inter, Roboto_Mono, Roboto_Condensed, Lora } from 'next/font/google';
 import Providers from './providers';
 import './globals.css';
 import { Footer } from '@/components';
@@ -22,6 +22,12 @@ const roboto_condensed = Roboto_Condensed({
   variable: '--font-roboto-condensed',
 });
 
+const lora = Lora({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-lora',
+});
+
 export const metadata: Metadata = {
   title: 'Get Rich',
   description: 'Wonderful budgeting app',
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html
       lang='en'
-      className={`${inter.variable} ${roboto_mono.variable} ${roboto_condensed.variable}`}
+      className={`${inter.variable} ${roboto_mono.variable} ${roboto_condensed.variable} ${lora.variable}`}
     >
       <body
         className={`antialiased bg-white dark:bg-black`}

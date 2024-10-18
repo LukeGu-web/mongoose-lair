@@ -19,6 +19,7 @@ const config: Config = {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-roboto-mono)'],
         condensed: ['var(--font-roboto-condensed)'],
+        lora: ['var(--font-lora)'],
       },
     },
   },
