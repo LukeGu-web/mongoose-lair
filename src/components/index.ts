@@ -1,3 +1,4 @@
+export { default as DeleteAccount } from './Documents/DeleteAccount';
 export { default as PrivacyPolicy } from './Documents/PrivacyPolicy';
 export { default as Terms } from './Documents/Terms';
 export { default as Header } from './Header/Header';
