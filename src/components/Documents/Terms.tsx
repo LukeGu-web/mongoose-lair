@@ -19,17 +19,17 @@ export default function Terms() {
           Terms and Conditions
         </h1>
         <p>
-          <strong>Effective Date:</strong> [Insert Date]
+          <strong>Effective Date:</strong> 2024 November 11
         </p>
 
-        <h2>1. Acceptance of Terms</h2>
+        <h2 className='text-xl font-semibold'>1. Acceptance of Terms</h2>
         <p>
           By accessing or using <strong>Get Rich</strong>, you confirm that you
           have read, understood, and agree to be bound by these Terms. If you do
           not agree with any part of these Terms, you must not use the App.
         </p>
 
-        <h2>2. User Accounts</h2>
+        <h2 className='text-xl font-semibold'>2. User Accounts</h2>
         <h3>Eligibility</h3>
         <p>
           You must be at least 13 years old to use <strong>Get Rich</strong>.
@@ -50,7 +50,7 @@ export default function Terms() {
           suspension or termination of your account.
         </p>
 
-        <h2>3. App Usage</h2>
+        <h2 className='text-xl font-semibold'>3. App Usage</h2>
         <h3>Personal Use</h3>
         <p>
           <strong>Get Rich</strong> is intended for your personal,
@@ -80,7 +80,7 @@ export default function Terms() {
           time, without prior notice or liability to you.
         </p>
 
-        <h2>4. Subscription and Payments</h2>
+        <h2 className='text-xl font-semibold'>4. Subscription and Payments</h2>
         <h3>Free and Premium Services</h3>
         <p>
           <strong>Get Rich</strong> offers both free and premium features. Some
@@ -107,7 +107,7 @@ export default function Terms() {
           law or as stated in our refund policy.
         </p>
 
-        <h2>5. Data and Privacy</h2>
+        <h2 className='text-xl font-semibold'>5. Data and Privacy</h2>
         <h3>Data Collection</h3>
         <p>
           We collect personal and financial data, as described in our Privacy
@@ -131,7 +131,7 @@ export default function Terms() {
           providing the services.
         </p>
 
-        <h2>6. Intellectual Property</h2>
+        <h2 className='text-xl font-semibold'>6. Intellectual Property</h2>
         <h3>Ownership</h3>
         <p>
           All intellectual property rights in the App, including but not limited
@@ -153,7 +153,9 @@ export default function Terms() {
           compensation.
         </p>
 
-        <h2>7. Third-Party Links and Services</h2>
+        <h2 className='text-xl font-semibold'>
+          7. Third-Party Links and Services
+        </h2>
         <p>
           <strong>Get Rich</strong> may contain links to third-party websites,
           services, or content that we do not control. We are not responsible
@@ -161,7 +163,7 @@ export default function Terms() {
           Your use of third-party services is at your own risk.
         </p>
 
-        <h2>8. Termination</h2>
+        <h2 className='text-xl font-semibold'>8. Termination</h2>
         <h3>Termination by You</h3>
         <p>
           You may stop using <strong>Get Rich</strong> and terminate your
@@ -182,7 +184,7 @@ export default function Terms() {
           upon termination.
         </p>
 
-        <h2>9. Disclaimer of Warranties</h2>
+        <h2 className='text-xl font-semibold'>9. Disclaimer of Warranties</h2>
         <p>
           <strong>Get Rich</strong> is provided &quot;as is&quot; and &quot;as
           available.&quot; We make no representations or warranties of any kind,
@@ -191,7 +193,7 @@ export default function Terms() {
           the App is at your own risk.
         </p>
 
-        <h2>10. Limitation of Liability</h2>
+        <h2 className='text-xl font-semibold'>10. Limitation of Liability</h2>
         <p>
           To the maximum extent permitted by law, we will not be liable for any
           indirect, incidental, or consequential damages, including but not
@@ -200,7 +202,7 @@ export default function Terms() {
           possibility of such damages.
         </p>
 
-        <h2>11. Changes to These Terms</h2>
+        <h2 className='text-xl font-semibold'>11. Changes to These Terms</h2>
         <p>
           We may update these Terms from time to time. Any changes will be
           posted on this page, and we will notify you of significant changes
@@ -208,7 +210,7 @@ export default function Terms() {
           changes are made, you agree to the updated Terms.
         </p>
 
-        <h2>12. Governing Law</h2>
+        <h2 className='text-xl font-semibold'>12. Governing Law</h2>
         <p>
           These Terms are governed by and construed in accordance with the laws
           of [Your Country/State], without regard to its conflict of law
@@ -217,11 +219,19 @@ export default function Terms() {
           Country/State].
         </p>
 
-        <h2>13. Contact Us</h2>
+        <h2 className='text-xl font-semibold'>13. Contact Us</h2>
         <p>
           If you have any questions about these Terms, please contact us at:
         </p>
-        <p>[Your Contact Information]</p>
+        <p>
+          <strong>Email: </strong>
+          <a
+            href='getrich.help.service@gmail.com'
+            className='text-blue-600 dark:text-blue-200'
+          >
+            getrich.help.service@gmail.com
+          </a>
+        </p>
       </div>
     </>
   );
