@@ -148,7 +148,60 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
 
-        <h2 className='text-xl font-semibold'>5. Your Rights</h2>
+        <h2 className='text-xl font-semibold'>
+          5. Use of Biometric Authentication
+        </h2>
+        <ul>
+          <li>
+            <strong>Biometric Data Utilized by the App</strong>
+            <p>
+              <em>Get Rich</em> does not collect, store, or share any biometric
+              data. The app utilizes the biometric authentication features
+              provided by the device&apos;s operating system, such as FaceID or
+              fingerprint scanning, to enhance security.
+            </p>
+          </li>
+          <li>
+            <strong>Purpose of Biometric Authentication</strong>
+            <p>
+              Biometric authentication (FaceID or fingerprint) is an optional
+              feature that users can enable in the app&apos;s security settings.
+              This feature allows users to secure their app access by requiring
+              biometric verification after a user-specified time period. It is
+              designed to protect user information and prevent unauthorized
+              access.
+            </p>
+          </li>
+          <li>
+            <strong>Biometric Data Is Not Shared or Stored</strong>
+            <p>
+              Biometric data is neither stored by <em>Get Rich</em> nor shared
+              with third parties. All biometric authentication processes are
+              handled locally by the device&apos;s operating system (e.g., iOS
+              for FaceID, Android for fingerprints). The app does not have
+              access to this data.
+            </p>
+          </li>
+          <li>
+            <strong>Retention of Biometric Data</strong>
+            <p>
+              Biometric data is not retained by the app. It is used momentarily
+              during the authentication process, which is managed entirely by
+              the device&apos;s operating system.
+            </p>
+          </li>
+          <li>
+            <strong>Transparency in Handling Biometric Data</strong>
+            <p>
+              The app&apos;s use of biometric authentication is limited to
+              ensuring secure access. The app relies on the device&apos;s
+              operating system to handle all biometric data locally and does not
+              process or retain this information.
+            </p>
+          </li>
+        </ul>
+
+        <h2 className='text-xl font-semibold'>6. Your Rights</h2>
         <p>You have the following rights regarding your data:</p>
         <ul>
           <li>
@@ -166,23 +219,31 @@ export default function PrivacyPolicy() {
           </li>
         </ul>
 
-        <h2 className='text-xl font-semibold'>6. Third-Party Links</h2>
+        <h2 className='text-xl font-semibold'>7. Third-Party Links</h2>
         <p>
           Our app may contain links to third-party websites or services. We are
           not responsible for the privacy practices of these third parties, and
           we encourage you to review their privacy policies.
         </p>
 
-        <h2 className='text-xl font-semibold'>7. Children&apos;s Privacy</h2>
+        <h2 className='text-xl font-semibold'>8. Children&apos;s Privacy</h2>
         <p>
-          <em>Get Rich</em> is not intended for users under the age of 13, and
-          we do not knowingly collect personal information from children. If we
-          discover that we have inadvertently collected such information, we
-          will take immediate steps to delete it.
+          <em>Get Rich</em> is designed for general audiences and does not
+          impose any age restrictions for its use. The app does not knowingly
+          collect personal information from children under the age of 13.
+        </p>
+        <p>
+          If we become aware that personal information has been collected from a
+          user under the age of 13 without verifiable parental consent, we will
+          take immediate steps to delete the information from our systems.
+        </p>
+        <p>
+          We encourage parents and guardians to monitor their children’s app
+          usage and guide them in using the app responsibly.
         </p>
 
         <h2 className='text-xl font-semibold'>
-          8. Changes to This Privacy Policy
+          9. Changes to This Privacy Policy
         </h2>
         <p>
           We may update this Privacy Policy from time to time. Any changes will
@@ -191,7 +252,7 @@ export default function PrivacyPolicy() {
           periodically to stay informed about how we protect your data.
         </p>
 
-        <h2 className='text-xl font-semibold'>9. Contact Us</h2>
+        <h2 className='text-xl font-semibold'>10. Contact Us</h2>
         <p>
           If you have any questions or concerns about this Privacy Policy,
           please contact us at:
