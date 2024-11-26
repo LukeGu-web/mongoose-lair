@@ -15,6 +15,9 @@ export default function Footer() {
       <Link className='text-stone-700 dark:text-white' href='/privacy-policy'>
         Privacy Policy
       </Link>
+      <Link className='text-stone-700 dark:text-white' href='/support'>
+        Support
+      </Link>
     </footer>
   );
 }

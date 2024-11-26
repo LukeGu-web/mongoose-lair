@@ -1,15 +1,15 @@
 import type { Metadata } from 'next';
-import { PageContainer, DeleteAccount as Delete } from '@/components';
+import { PageContainer, DeleteAccount } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Delete Account',
   description: 'Wonderful budgeting app - Delete Account',
 };
 
-export default function DeleteAccount() {
+export default function DeleteAccountPage() {
   return (
     <PageContainer>
-      <Delete />
+      <DeleteAccount />
     </PageContainer>
   );
 }
