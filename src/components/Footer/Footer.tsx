@@ -11,7 +11,7 @@ export default function Footer() {
         <Link href='/privacy-policy'>Privacy Policy</Link>
         <Link href='/support'>Contact Us</Link>
       </div>
-      <p className='text-xs font-semibold text-zinc-500 dark:bg-zinc-400'>
+      <p className='text-xs font-semibold text-zinc-500 dark:text-zinc-400'>
         Copyright &#169; {new Date().getFullYear()} Xpper
       </p>
     </footer>
